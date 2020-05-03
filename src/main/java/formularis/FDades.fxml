@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formularis.FDades">
+   <children>
+      <StackPane layoutX="-8.0" layoutY="-75.0" prefHeight="485.0" prefWidth="610.0">
+         <children>
+            <SplitPane dividerPositions="0.2898550724637681" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <SplitPane dividerPositions="0.6171617161716172" layoutX="5.0" layoutY="-2.0" prefHeight="347.0" prefWidth="608.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="345.0" prefWidth="271.0">
+                                 <children>
+                                    <TextField layoutX="103.0" layoutY="53.0" prefHeight="25.0" prefWidth="98.0" />
+                                    <TextField layoutX="103.0" layoutY="109.0" prefHeight="25.0" prefWidth="98.0" />
+                                    <TextField layoutX="280.0" layoutY="53.0" prefHeight="25.0" prefWidth="55.0" />
+                                    <TextField layoutX="280.0" layoutY="109.0" prefHeight="25.0" prefWidth="55.0" />
+                                    <Label layoutX="26.0" layoutY="57.0" text="Num:" />
+                                    <Label layoutX="26.0" layoutY="113.0" text="Weight" />
+                                    <Label layoutX="239.0" layoutY="57.0" text="bs:" />
+                                    <Label layoutX="239.0" layoutY="113.0" text="gr:" />
+                                    <Label layoutX="26.0" layoutY="165.0" text="Category:" />
+                                    <Label layoutX="26.0" layoutY="218.0" text="Timezone:" />
+                                    <Label layoutX="239.0" layoutY="165.0" text="Rate:" />
+                                    <Button layoutX="103.0" layoutY="282.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Apila" />
+                                    <CheckBox layoutX="280.0" layoutY="165.0" mnemonicParsing="false" />
+                                    <ChoiceBox layoutX="103.0" layoutY="160.0" prefHeight="25.0" prefWidth="98.0" />
+                                    <ChoiceBox layoutX="103.0" layoutY="214.0" prefHeight="25.0" prefWidth="98.0" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="345.0" prefWidth="350.0" />
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
